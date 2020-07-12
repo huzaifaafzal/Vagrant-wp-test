@@ -1,0 +1,3 @@
+CREATE DATABASE wp_myblog;
+GRANT ALL PRIVILEGES ON wp_myblog.* TO 'root'@'localhost' IDENTIFIED BY 'root';
+FLUSH PRIVILEGES;
