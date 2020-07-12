@@ -59,6 +59,7 @@ mysql -u root -proot  < /var/www/html/wp_myblog.sql
 
 cd /var/www/html
 sudo mv wp-config-sample.php wp-config.php
+sudo mv wp-config-add.php wp-config.php
 
 
 sudo service apache2 restart
